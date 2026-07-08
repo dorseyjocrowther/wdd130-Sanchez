@@ -133,7 +133,7 @@ img {
 }
 
 .navbar .logo {
-    height: 55px;
+    height: 100px;
     width: auto;
     object-fit: contain;
 }
@@ -419,7 +419,7 @@ img {
 
 .footer-logo,
 .footer-bottom img {
-    height: 42px !important;
+    height: 100px !important;
     width: auto !important;
     max-width: 160px !important;
     object-fit: contain;
