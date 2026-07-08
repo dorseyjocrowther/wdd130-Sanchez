@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 p {
-    font-weight: 300;
+    font-weight: 400;
     color: #2F2A30; 
     font-size: 1rem;
     max-width: 65ch;
@@ -244,6 +244,7 @@ img {
 .card p {
     font-size: 0.95rem;
     color: #2F2A30;
+    font-weight: 400;
 }
 
 .watching-section {
