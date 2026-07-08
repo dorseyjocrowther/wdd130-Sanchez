@@ -4,42 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Edit | Starroom</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
+  <header class="navbar"> 
     <a href="index.html">
-      <img src="images/logo.png" alt="Starroom logo">
+        <img src="images/logo.png" alt="Starroom logo" class="logo">
     </a>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="the-edit.html">The Edit</a>
-      <a href="resources.html">Resources</a>
-    </nav>
+    <nav> 
+        <a href="index.html">Home</a> 
+        <a href="the-edit.html">The Edit</a> 
+        <a href="resources.html">Resources</a> 
+    </nav> 
   </header>
 
   <main>
-    <section>
-      <h1>The Edit</h1>
-      <h2>Fashion | Art | Media | Design</h2>
-      <p>What's happening right now. Updated when something's worth your attention.</p>
-    </section>
+  <section class="hero">
+    <div class="hero-content">
+        <span class="category-tags">FASHION ART MEDIA DESIGN</span>
+        <h1>The Edit</h1>
+        <p class="subheadline">Fashion | Art | Media | Design</p>
+        <p>What's happening right now. Updated when something's worth your attention.</p>
+    </div>
+  </section>
 
-    <section>
-      <h2>Browse The Edit</h2>
-      <p>
-        <a href="#all">All</a> |
-        <a href="#runway">Runway</a> |
-        <a href="#art">Art</a> |
-        <a href="#media">Media</a> |
-        <a href="#film-tv">Film & TV</a> |
-        <a href="#design">Design</a>
-      </p>
-    </section>
+  <section class="latest-section">
+    <h2>THE EDIT</h2>
 
-    <section id="all">
-      <h2>All Stories</h2>
+    <div class="grid-three-columns">
+        <div class="card">
+            <img src="images/chanel-runway.jpg" alt="Chanel Fall 2026 Ready-to-Wear" class="image-box">
+            <span class="card-tag">RUNWAY</span>
+            <h3>Chanel Fall 2026 Ready-to-Wear</h3>
+            <p>Matthieu Blazy's debut closed with a look that stopped the room. See the full collection.</p>
+            <a href="https://wwd.com/fashion-news/fashion-features/chanel-show-finale-matthieu-blazy-debut-model-awar-odhiang-1238293587/" target="_blank" class="btn-outline">Read Article</a>
+        </div>
+
+        <div class="card">
+            <img src="images/garcias.jpg" alt="Latin Maximalism: Meet Garcia" class="image-box">
+            <span class="card-tag">DESIGN</span>
+            <h3>Latin Maximalism: Meet Garcia</h3>
+            <p>A bold new voice bringing color, culture, and maximalism to the menswear circuit.</p>
+            <a href="https://www.vogue.com/article/its-latin-maximalism-meet-garcias-milans-new-menswear-brand" target="_blank" class="btn-outline">Read Article</a>
+        </div>
+
+        <div class="card">
+            <img src="images/art-basel.jpg" alt="Art Basel booth" class="image-box">
+            <span class="card-tag">ART</span>
+            <h3>The 10 Best Booths at Art Basel 2026</h3>
+            <p>Artsy editors picked the standout gallery presentations from this year's most competitive fair.</p>
+            <a href="https://www.artsy.net/article/artsy-editorial-10-best-booths-art-basel-2026" target="_blank" class="btn-outline">Read Article</a>
+        </div>
+    </div>
+  </section>
 
       <article id="runway">
         <img src="images/chanel-runway.jpg" alt="Chanel runway look">
@@ -129,8 +148,25 @@
     </section>
   </main>
 
-  <footer>
-    <p>Starroom &copy; 2026</p>
-  </footer>
+  <section class="cta-banner">
+    <h2>Fashion moves fast.</h2>
+    <p>The Edit keeps you ahead of it.</p>
+
+    <div class="button-group-central">
+        <a href="index.html" class="btn-white">Home</a>
+        <a href="resources.html" class="btn-outline-white">Resources</a>
+    </div>
+
+    <div class="footer-bottom">
+        <span>Starroom 2026</span>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="the-edit.html">The Edit</a>
+            <a href="resources.html">Resources</a>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>
