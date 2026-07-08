@@ -457,4 +457,21 @@ img {
 .footer-logo-link {
     display: inline-block;
 }
+.footer-logo {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+}.footer-logo-link {
+    display: inline-block;
+}
+
+.footer-logo {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+}
 }
