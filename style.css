@@ -447,4 +447,14 @@ img {
     .btn-dark, .btn-light, .btn-outline, .btn-white, .btn-outline-white { 
         width: 100%; 
     }
+
+    .footer-logo {
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-logo-link {
+    display: inline-block;
+}
 }
