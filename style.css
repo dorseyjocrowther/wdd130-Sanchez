@@ -517,3 +517,22 @@ img {
     object-fit: contain;
     display: block;
 }
+
+.footer-bottom img,
+.cta-banner .footer-logo,
+.cta-banner .logo {
+    height: 42px !important;
+    width: auto !important;
+    max-width: 160px !important;
+    object-fit: contain;
+    display: block;
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+}
+
+.footer-logo-link {
+    display: inline-flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0;
+}
