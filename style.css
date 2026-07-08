@@ -127,7 +127,7 @@ img {
 }
 
 .navbar .logo {
-    height: 32px;
+    height: 70px;
     width: auto;
     object-fit: contain;
 }
@@ -323,7 +323,21 @@ img {
 }
 
 .iframe-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: #0E0A0F;
     border: 2px solid #0E0A0F;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .small-tag {
