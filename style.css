@@ -474,4 +474,46 @@ img {
     background-color: #FFFFFF;
     padding: 8px 12px;
 }
+@media (max-width: 768px) { 
+    .navbar { 
+        flex-direction: column; 
+        gap: 15px; 
+        padding: 15px; 
+    } 
+
+    .hero { 
+        padding: 40px 20px; 
+        text-align: center; 
+    } 
+
+    .hero h1 { 
+        font-size: 2.2rem; 
+    } 
+
+    .hero .button-group, .button-group-central { 
+        flex-direction: column; 
+        width: 100%; 
+        gap: 12px; 
+    } 
+
+    .btn-dark, .btn-light, .btn-outline, .btn-white, .btn-outline-white { 
+        width: 100%; 
+    }
+}
+
+/* Footer logo */
+.footer-logo-link {
+    display: inline-flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+    line-height: 0;
+}
+
+.footer-logo {
+    height: 36px !important;
+    width: auto !important;
+    max-width: 130px;
+    object-fit: contain;
+    display: block;
 }
