@@ -1,4 +1,4 @@
-(* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -432,3 +432,4 @@ img {
     .btn-dark, .btn-light, .btn-outline, .btn-white, .btn-outline-white { 
         width: 100%; 
     }
+}
