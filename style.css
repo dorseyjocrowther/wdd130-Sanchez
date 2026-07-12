@@ -654,3 +654,61 @@ img {
     height: 40px;
     opacity: 0.8;
 }
+.resources-page .resource-section {
+    padding: 80px 4%;
+    border-bottom: 1px solid #C9A8A8;
+}
+
+.resources-page .resource-section h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+
+.resources-page .resource-section img {
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 1px solid #C9A8A8;
+}
+
+.resources-page ul {
+    list-style: none;
+    display: grid;
+    gap: 18px;
+}
+
+.resources-page li {
+    font-size: 1rem;
+    color: #2F2A30;
+    border-left: 3px solid #0080ff;
+    padding-left: 16px;
+}
+
+.resources-page li a {
+    color: #0080ff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.resources-page li a:hover {
+    text-decoration: underline;
+}
+
+.palette {
+    margin-bottom: 40px;
+}
+
+.swatches {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.swatches span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #0E0A0F;
+}
