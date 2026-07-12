@@ -541,7 +541,6 @@ img {
     line-height: 1.6;
 }
 
-/* Hero Section */
 .resources-page .hero {
     text-align: center;
     padding: 40px 0;
@@ -564,7 +563,6 @@ img {
     color: #555;
 }
 
-/* Intro */
 .resources-page .intro {
     text-align: center;
     margin-bottom: 40px;
@@ -575,7 +573,6 @@ img {
     color: #444;
 }
 
-/* Resource Sections */
 .resources-page .resource-section {
     margin-bottom: 50px;
 }
@@ -614,7 +611,6 @@ img {
     text-decoration: underline;
 }
 
-/* Color Palettes */
 .resources-page .palette {
     margin-bottom: 30px;
 }
@@ -637,7 +633,6 @@ img {
     border: 1px solid #ccc;
 }
 
-/* Footer */
 .resources-page footer {
     text-align: center;
     padding: 30px 0;
@@ -654,6 +649,7 @@ img {
     height: 40px;
     opacity: 0.8;
 }
+
 .resources-page .resource-section {
     padding: 80px 4%;
     border-bottom: 1px solid #C9A8A8;
@@ -712,3 +708,4 @@ img {
     height: 60px;
     border: 1px solid #0E0A0F;
 }
+
